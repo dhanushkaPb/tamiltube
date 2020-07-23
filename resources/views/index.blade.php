@@ -157,14 +157,14 @@
                                 <div class="large-12 columns">
                                     <div class="title-bar" data-responsive-toggle="beNav" data-hide-for="large" style="display: none;">
                                         <button class="menu-icon" type="button" data-toggle="offCanvas-responsive" aria-expanded="false" aria-controls="offCanvas-responsive"></button>
-                                        <div class="title-bar-title"><img src="./logo-small.png" alt="logo"></div>
+                                        <div class="title-bar-title"><img src="{{ URL::asset('public/logo-small.png') }}" alt="logo"></div>
                                     </div>
 
                                     <div class="top-bar show-for-large" id="beNav" style="width: 100%;">
                                         <div class="top-bar-left">
                                             <ul class="menu">
                                                 <li class="menu-text">
-                                                    <a href="http://beetube.me/html-template/home-v1.html"><img src="./logo.png" alt="logo"></a>
+                                                    <a href="http://beetube.me/html-template/home-v1.html"><img src="{{ URL::asset('public/logo.png') }}" alt="logo"></a>
                                                 </li>
                                             </ul>
                                         </div>
@@ -294,7 +294,7 @@
                                     <div class="media-object-section">
                                         <div class="author-img-sec">
                                             <div class="thumbnail author-single-post">
-                                                <a href="http://beetube.me/html-template/single-video-v2.html#"><img src="./post-author-post.png" alt="post"></a>
+                                                <a href="http://beetube.me/html-template/single-video-v2.html#"><img src="{{ URL::asset('public/post-author-post.png') }}" alt="post"></a>
                                             </div>
                                             <p class="text-center"><a href="http://beetube.me/html-template/single-video-v2.html#">Joseph John</a></p>
                                         </div>
@@ -418,7 +418,7 @@
                                     <div class="item large-4 columns end group-item-grid-default">
                                         <div class="post thumb-border">
                                             <div class="post-thumb">
-                                                <img src="./landing-small1.png" alt="landing">
+                                                <img src="{{ URL::asset('public/landing-small1.png') }}" alt="landing">
                                                 <a href="http://beetube.me/html-template/single-video-v2.html#" class="hover-posts">
                                                     <span><i class="fa fa-play"></i>Watch Video</span>
                                                 </a>
@@ -464,7 +464,7 @@
                                     <div class="item large-4 columns end group-item-grid-default">
                                         <div class="post thumb-border">
                                             <div class="post-thumb">
-                                                <img src="./landing-small2.png" alt="landing">
+                                                <img src="{{ URL::asset('public/landing-small2.png') }}" alt="landing">
                                                 <a href="http://beetube.me/html-template/single-video-v2.html#" class="hover-posts">
                                                     <span><i class="fa fa-play"></i>Watch Video</span>
                                                 </a>
@@ -509,53 +509,7 @@
                                     <div class="item large-4 columns end group-item-grid-default">
                                         <div class="post thumb-border">
                                             <div class="post-thumb">
-                                                <img src="./landing-small3.png" alt="landing">
-                                                <a href="http://beetube.me/html-template/single-video-v2.html#" class="hover-posts">
-                                                    <span><i class="fa fa-play"></i>Watch Video</span>
-                                                </a>
-                                                <div class="video-stats clearfix">
-                                                    <div class="thumb-stats pull-left">
-                                                        <h6>HD</h6>
-                                                    </div>
-                                                    <div class="thumb-stats pull-left">
-                                                        <i class="fa fa-heart"></i>
-                                                        <span>506</span>
-                                                    </div>
-                                                    <div class="thumb-stats pull-right">
-                                                        <span>05:56</span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="post-des">
-                                                <h6><a href="http://beetube.me/html-template/single-video-v2.html#">There are many variations of passage.</a></h6>
-                                                <div class="post-stats clearfix">
-                                                    <p class="pull-left">
-                                                        <i class="fa fa-user"></i>
-                                                        <span><a href="http://beetube.me/html-template/single-video-v2.html#">admin</a></span>
-                                                    </p>
-                                                    <p class="pull-left">
-                                                        <i class="fa fa-clock-o"></i>
-                                                        <span>5 January 16</span>
-                                                    </p>
-                                                    <p class="pull-left">
-                                                        <i class="fa fa-eye"></i>
-                                                        <span>1,862K</span>
-                                                    </p>
-                                                </div>
-                                                <div class="post-summary">
-                                                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
-                                                </div>
-                                                <div class="post-button">
-                                                    <a href="http://beetube.me/html-template/single-video-v2.html#" class="secondary-button"><i class="fa fa-play-circle"></i>watch video</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="item large-4 columns end group-item-grid-default">
-                                        <div class="post thumb-border">
-                                            <div class="post-thumb">
-                                                <img src="./widget-most2.png" alt="landing">
+                                                <img src="{{ URL::asset('public/landing-small3.png') }}" alt="landing">
                                                 <a href="http://beetube.me/html-template/single-video-v2.html#" class="hover-posts">
                                                     <span><i class="fa fa-play"></i>Watch Video</span>
                                                 </a>
@@ -601,7 +555,7 @@
                                     <div class="item large-4 columns end group-item-grid-default">
                                         <div class="post thumb-border">
                                             <div class="post-thumb">
-                                                <img src="./slider-carousel4.png" alt="landing">
+                                                <img src="{{ URL::asset('public/widget-most2.png') }}" alt="landing">
                                                 <a href="http://beetube.me/html-template/single-video-v2.html#" class="hover-posts">
                                                     <span><i class="fa fa-play"></i>Watch Video</span>
                                                 </a>
@@ -647,7 +601,53 @@
                                     <div class="item large-4 columns end group-item-grid-default">
                                         <div class="post thumb-border">
                                             <div class="post-thumb">
-                                                <img src="./1.jpg" alt="landing">
+                                                <img src="{{ URL::asset('public/slider-carousel4.png') }}" alt="landing">
+                                                <a href="http://beetube.me/html-template/single-video-v2.html#" class="hover-posts">
+                                                    <span><i class="fa fa-play"></i>Watch Video</span>
+                                                </a>
+                                                <div class="video-stats clearfix">
+                                                    <div class="thumb-stats pull-left">
+                                                        <h6>HD</h6>
+                                                    </div>
+                                                    <div class="thumb-stats pull-left">
+                                                        <i class="fa fa-heart"></i>
+                                                        <span>506</span>
+                                                    </div>
+                                                    <div class="thumb-stats pull-right">
+                                                        <span>05:56</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="post-des">
+                                                <h6><a href="http://beetube.me/html-template/single-video-v2.html#">There are many variations of passage.</a></h6>
+                                                <div class="post-stats clearfix">
+                                                    <p class="pull-left">
+                                                        <i class="fa fa-user"></i>
+                                                        <span><a href="http://beetube.me/html-template/single-video-v2.html#">admin</a></span>
+                                                    </p>
+                                                    <p class="pull-left">
+                                                        <i class="fa fa-clock-o"></i>
+                                                        <span>5 January 16</span>
+                                                    </p>
+                                                    <p class="pull-left">
+                                                        <i class="fa fa-eye"></i>
+                                                        <span>1,862K</span>
+                                                    </p>
+                                                </div>
+                                                <div class="post-summary">
+                                                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+                                                </div>
+                                                <div class="post-button">
+                                                    <a href="http://beetube.me/html-template/single-video-v2.html#" class="secondary-button"><i class="fa fa-play-circle"></i>watch video</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="item large-4 columns end group-item-grid-default">
+                                        <div class="post thumb-border">
+                                            <div class="post-thumb">
+                                                <img src="{{ URL::asset('public/1.jpg') }}" alt="landing">
                                                 <a href="http://beetube.me/html-template/single-video-v2.html#" class="hover-posts">
                                                     <span><i class="fa fa-play"></i>Watch Video</span>
                                                 </a>
@@ -712,7 +712,7 @@
                                     <div class="media-object stack-for-small">
                                         <div class="media-object-section comment-img text-center">
                                             <div class="comment-box-img">
-                                                <img src="./post-author-post.png" alt="comment">
+                                                <img src="{{ URL::asset('public/post-author-post.png') }}" alt="comment">
                                             </div>
                                             <h6><a href="http://beetube.me/html-template/single-video-v2.html#">Joseph John</a></h6>
                                         </div>
@@ -734,7 +734,7 @@
                                     <div class="media-object stack-for-small">
                                         <div class="media-object-section comment-img text-center">
                                             <div class="comment-box-img">
-                                                <img src="./post-author-post.png" alt="comment">
+                                                <img src="{{ URL::asset('public/post-author-post.png') }}" alt="comment">
                                             </div>
                                         </div>
                                         <div class="media-object-section comment-desc">
@@ -755,7 +755,7 @@
                                             <div class="media-object stack-for-small reply-comment">
                                                 <div class="media-object-section comment-img text-center">
                                                     <div class="comment-box-img">
-                                                        <img src="./post-author-post.png" alt="comment">
+                                                        <img src="{{ URL::asset('public/post-author-post.png') }}" alt="comment">
                                                     </div>
                                                 </div>
                                                 <div class="media-object-section comment-desc">
@@ -778,7 +778,7 @@
                                             <div class="media-object stack-for-small reply-comment">
                                                 <div class="media-object-section comment-img text-center">
                                                     <div class="comment-box-img">
-                                                        <img src="./post-author-post.png" alt="comment">
+                                                        <img src="{{ URL::asset('public/post-author-post.png') }}" alt="comment">
                                                     </div>
                                                 </div>
                                                 <div class="media-object-section comment-desc">
@@ -804,7 +804,7 @@
                                     <div class="media-object stack-for-small">
                                         <div class="media-object-section comment-img text-center">
                                             <div class="comment-box-img">
-                                                <img src="./post-author-post.png" alt="comment">
+                                                <img src="{{ URL::asset('public/post-author-post.png') }}" alt="comment">
                                             </div>
                                         </div>
                                         <div class="media-object-section comment-desc">
@@ -827,7 +827,7 @@
                                     <div class="media-object stack-for-small">
                                         <div class="media-object-section comment-img text-center">
                                             <div class="comment-box-img">
-                                                <img src="./post-author-post.png" alt="comment">
+                                                <img src="{{ URL::asset('public/post-author-post.png') }}" alt="comment">
                                             </div>
                                         </div>
                                         <div class="media-object-section comment-desc">
@@ -847,7 +847,7 @@
                                             <div class="media-object stack-for-small reply-comment">
                                                 <div class="media-object-section comment-img text-center">
                                                     <div class="comment-box-img">
-                                                        <img src="./post-author-post.png" alt="comment">
+                                                        <img src="{{ URL::asset('public/post-author-post.png') }}" alt="comment">
                                                     </div>
                                                 </div>
                                                 <div class="media-object-section comment-desc">
@@ -867,7 +867,7 @@
                                                     <div class="media-object stack-for-small reply-comment">
                                                         <div class="media-object-section comment-img text-center">
                                                             <div class="comment-box-img">
-                                                                <img src="./post-author-post.png" alt="comment">
+                                                                <img src="{{ URL::asset('public/post-author-post.png') }}" alt="comment">
                                                             </div>
                                                         </div>
                                                         <div class="media-object-section comment-desc">
@@ -925,7 +925,7 @@
                                     <div class="widgetContent">
                                         <div class="video-box thumb-border">
                                             <div class="video-img-thumb">
-                                                <img src="./7.jpg" alt="most viewed videos">
+                                                <img src="{{ URL::asset('public/7.jpg') }}" alt="most viewed videos">
                                                 <a href="http://beetube.me/html-template/single-video-v2.html#" class="hover-posts">
                                                     <span><i class="fa fa-play"></i>Watch Video</span>
                                                 </a>
@@ -941,7 +941,7 @@
                                         </div>
                                         <div class="video-box thumb-border">
                                             <div class="video-img-thumb">
-                                                <img src="./widget-most1.png" alt="most viewed videos">
+                                                <img src="{{ URL::asset('public/widget-most1.png') }}" alt="most viewed videos">
                                                 <a href="http://beetube.me/html-template/single-video-v2.html#" class="hover-posts">
                                                     <span><i class="fa fa-play"></i>Watch Video</span>
                                                 </a>
@@ -957,7 +957,7 @@
                                         </div>
                                         <div class="video-box thumb-border">
                                             <div class="video-img-thumb">
-                                                <img src="./widget-most2.png" alt="most viewed videos">
+                                                <img src="{{ URL::asset('public/widget-most2.png') }}" alt="most viewed videos">
                                                 <a href="http://beetube.me/html-template/single-video-v2.html#" class="hover-posts">
                                                     <span><i class="fa fa-play"></i>Watch Video</span>
                                                 </a>
@@ -973,7 +973,7 @@
                                         </div>
                                         <div class="video-box thumb-border">
                                             <div class="video-img-thumb">
-                                                <img src="./widget-most3.png" alt="most viewed videos">
+                                                <img src="{{ URL::asset('public/widget-most3.png') }}" alt="most viewed videos">
                                                 <a href="http://beetube.me/html-template/single-video-v2.html#" class="hover-posts">
                                                     <span><i class="fa fa-play"></i>Watch Video</span>
                                                 </a>
@@ -1065,7 +1065,7 @@
                                     </div>
                                     <div class="widgetContent">
                                         <div class="advBanner text-center">
-                                            <a href="http://beetube.me/html-template/single-video-v2.html#"><img src="./sideradv.png" alt="sidebar adv"></a>
+                                            <a href="http://beetube.me/html-template/single-video-v2.html#"><img src="{{ URL::asset('public/sideradv.png') }}" alt="sidebar adv"></a>
                                         </div>
                                     </div>
                                 </div>
@@ -1081,7 +1081,7 @@
                                         <div class="media-object stack-for-small">
                                             <div class="media-object-section">
                                                 <div class="recent-img">
-                                                    <img src="./category4.png" alt="recent">
+                                                    <img src="{{ URL::asset('public/category4.png') }}" alt="recent">
                                                     <a href="http://beetube.me/html-template/single-video-v2.html#" class="hover-posts">
                                                         <span><i class="fa fa-play"></i></span>
                                                     </a>
