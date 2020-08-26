@@ -1,8 +1,14 @@
 
-@extends('layouts.main');
+@extends('layouts.main')
 
 
-<body data-whatinput="mouse">
+@section('title')
+Tamil Tube(LK)
+
+@endsection
+
+@section('body')
+
 <div class="off-canvas-wrapper">
     <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper="">
         <!--header-->
@@ -15,7 +21,7 @@
                 <li class="has-submenu is-drilldown-submenu-parent" role="menuitem" aria-haspopup="true" aria-expanded="false" aria-label="Home">
                     <a tabindex="0"><i class="fa fa-home"></i>Home</a>
                     <ul class="submenu menu vertical is-drilldown-submenu" data-submenu="" data-animate="slide-in-down slide-out-up" aria-hidden="true" role="menu" tabindex="0"><li class="js-drilldown-back"><a>Back</a></li>
-                        <li role="menuitem" class="is-submenu-item is-drilldown-submenu-item"><a href="http://beetube.me/html-template/home-v1.html"><i class="fa fa-home"></i>Home page v1</a></li>
+                        <li role="menuitem" class="is-submenu-item is-drilldown-submenu-item"><a href="{{ url('/addaddpage') }}"><i class="fa fa-home"></i>Home page v1</a></li>
                         <li role="menuitem" class="is-submenu-item is-drilldown-submenu-item"><a href="http://beetube.me/html-template/home-v2.html"><i class="fa fa-home"></i>Home page v2</a></li>
                         <li role="menuitem" class="is-submenu-item is-drilldown-submenu-item"><a href="http://beetube.me/html-template/home-v3.html"><i class="fa fa-home"></i>Home page v3</a></li>
                         <li role="menuitem" class="is-submenu-item is-drilldown-submenu-item"><a href="http://beetube.me/html-template/home-v4.html"><i class="fa fa-home"></i>Home page v4</a></li>
@@ -180,8 +186,8 @@
                                                 <li class="has-submenu active is-dropdown-submenu-parent opens-right" role="menuitem" aria-haspopup="true" aria-expanded="false" aria-label="Home">
                                                     <a href="http://beetube.me/html-template/single-video-v2.html#" tabindex="0"><i class="fa fa-home"></i>Home</a>
                                                     <ul class="submenu menu vertical is-dropdown-submenu first-sub" data-submenu="" data-animate="slide-in-down slide-out-up" aria-hidden="true" role="menu">
-                                                        <li role="menuitem" class="is-submenu-item is-dropdown-submenu-item"><a href="http://beetube.me/html-template/home-v1.html"><i class="fa fa-home"></i>Home page v1</a></li>
-                                                        <li role="menuitem" class="is-submenu-item is-dropdown-submenu-item"><a href="http://beetube.me/html-template/home-v2.html"><i class="fa fa-home"></i>Home page v2</a></li>
+                                                        <li role="menuitem" class="is-submenu-item is-dropdown-submenu-item"><a href="{{ url('/addaddpage') }}"><i class="fa fa-home"></i>Home page v1</a></li>
+                                                        <li role="menuitem" class="is-submenu-item is-dropdown-submenu-item"><a href="http://beetube.me/html-template/home-v2.html"><i class="fa fa-home"></i>Home page fsd</a></li>
                                                         <li role="menuitem" class="is-submenu-item is-dropdown-submenu-item"><a href="http://beetube.me/html-template/home-v3.html"><i class="fa fa-home"></i>Home page v3</a></li>
                                                         <li role="menuitem" class="is-submenu-item is-dropdown-submenu-item"><a href="http://beetube.me/html-template/home-v4.html"><i class="fa fa-home"></i>Home page v4</a></li>
                                                         <li role="menuitem" class="is-submenu-item is-dropdown-submenu-item"><a href="http://beetube.me/html-template/home-v5.html"><i class="fa fa-home"></i>Home page v5</a></li>
@@ -1311,4 +1317,5 @@
             </div>
         <div class="js-off-canvas-exit"></div></div><!--end off canvas content-->
     </div><!--end off canvas wrapper inner-->
-</div
+</div>
+@endsection
