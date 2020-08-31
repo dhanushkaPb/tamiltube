@@ -19,3 +19,5 @@ Route::get('/addaddpage', function () {
     return view('add');
 });
 
+Route::view('abc', 'abc.index');
+

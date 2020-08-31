@@ -1,5 +1,5 @@
 <!-- script files -->
-<script src="{{ URL::asset('public/jquery.js') }}"></script>
+
 <script src="{{ URL::asset('public/what-input.js') }}"></script>
 <script src="{{ URL::asset('public/foundation.js') }}"></script>
 <script src="{{ URL::asset('public/jquery.showmore.src.js') }}" type="text/javascript"></script>

@@ -6,8 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BeTube video</title>
     <link rel="stylesheet" href="{{ URL::asset('public/app.css') }}">
+    <link rel="stylesheet" href="{{ URL::asset('public/collapse.css') }}">
+
     <link rel="stylesheet" href="{{ URL::asset('public/theme.css') }}">
-    <link rel="stylesheet" href="{{ URL::asset('public/font-awesome.min.css') }}">
+    <link rel="stylesheet" href="{{ URL::asset('public/css/font-awesome.min.css') }}">
     <!-- <link href="./css" rel="stylesheet" type="text/css"> -->
     <link rel="stylesheet" type="text/css" href="{{ URL::asset('public/layerslider.css') }}">
     <link rel="stylesheet" href="{{ URL::asset('public/owl.carousel.min.css') }}">
